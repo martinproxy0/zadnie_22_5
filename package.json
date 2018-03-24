@@ -1,0 +1,22 @@
+{
+  "name": "zadanie_24_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:style": "mocha -w -b calculateStylePoints.test.js",
+    "test:distance": "mocha -w -b calculateDistancePoints.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinproxy0/zadnie_22_5.git"
+  },
+  "keywords": [],
+  "author": "Marcin Sornek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinproxy0/zadnie_22_5/issues"
+  },
+  "homepage": "https://github.com/martinproxy0/zadnie_22_5#readme"
+}
