@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha index.test.js",
     "test:style": "mocha -w -b calculateStylePoints.test.js",
-    "test:distance": "mocha -w -b calculateDistancePoints.test.js"
+    "test:distance": "mocha -w -b calculateDistancePoints.test.js",
+    "test:total": "mocha -w -b calculateTotalPoints.test.js"
   },
   "repository": {
     "type": "git",

@@ -62,5 +62,13 @@ describe('calculateStylePoints', () => {
 
             assert.equal(actual, expected);
         });
+        it('should return calculated points Unofficial Results 1st Round', () => {
+
+            const actual = calculateStylePoints([18.5, 18.5, 18.5, 18.0, 18.5]);
+
+            const expected = 55.5;
+
+            assert.equal(actual, expected);
+        });
     });
 });
